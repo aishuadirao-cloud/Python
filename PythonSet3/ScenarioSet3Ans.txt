@@ -1,0 +1,79 @@
+1. Scenario: A user is required to enter a valid number in a form, but users sometimes input invalid data. 
+Write logic to repeatedly prompt the user until they enter a valid integer
+Ans: 
+1. Ask input from the user
+2. Check the type of input. Check whether its a valid integer.
+3. If different datatype is inputted or invalid int is inputted throw error
+4. Repeat step 1 to 3 until success.
+
+2. Scenario:A data analysis tool processes a list of numbers and needs to identify the most frequent occurring value.
+Write logic to find the most frequently occurring number in a given list 
+Ans: 
+1. Get the list of numbers
+2. Check the occurrence of each number and store it.
+3. Verify which number is occurring the max and return the same. 
+
+3. Scenario: A Text processing Application needs to compare words and check if they are anagrams(contain the same letters in a different order)
+Write logic to determine whether two given strings are anagram.
+Ans:
+1. Get both the strings
+2. Check the length of both the string. if it is different then return not anagram
+3. If they are same length, then check the occurrance of each char of string 1 in string 2 
+4. If 1 char also not available then return not anagram
+5. IF all the condition satisfies then return both the string are anagram.
+
+4. Scenario: A speech analysis program needs to count the number of vowel sound in a given input 
+Write logic to count the number of vowels in a given string 
+Ans:
+1. Get the input 
+2. Verify the  occurrance of a,e,i,o,u 
+3. If there is occurrance of vowels then increment the count
+4. return the count. 
+
+5. Scenario: A Text-editing software includes a feature to reverse the order of words in a sentence for stylistic effects
+Write logic to reverse the order of words in a sentence while keeping the words themselves intact. 
+1. Get the input word. 
+2. Reverse the word and keep it in another variable 
+3. Return the word and its reverse. 
+
+6. Scenario: 
+A missing number is detected in a sequence of value stored in a database. Write logic to find the missing number in the list containing n-1 numbers from 1 to n. 
+1. Get the list of numbers 
+2. Verify the pattern of the sequence 
+3. See whether all the numbers are in the pattern. 
+4. When failed inform the next number is missing mentioning the number 
+
+7. Scenario:
+An ATM machine processes withdrawal requests and needs to ensure that the users cannot withdraw more than their account balance. 
+Write logic to allow a withdrawal only if the balance is sufficient
+Ans
+1. Get the withdrawal amount
+2. Check against the available balance 
+3. If withdrawal amount is greater than the available balance then return false and come out 
+4. Else proceed with the withdrawal process.
+
+8. Scenario:
+A system needs to verify whether a given dataset contains duplicate entries 
+Write logic to check whether a given list contains duplicate values. 
+Ans.
+1. Get the input
+2. Verify whether the occurrance of each value exceeds 1 
+3. If so then mention the duplicate values. 
+
+9.Scenario:
+A digital calculator includes a feature to sum the digits of a number for verification purposes. 
+Write logic to calculate the sum of all digits in a given numbers.
+Ans:
+1. Get the number
+2. Extract all the digits and keep it in a list
+3. sum the digits 
+4. verify against the standard digit acceptance condition. 
+
+10. scenario
+A language learning app wants to verify whether a given sentence is a pangram 
+(Contains every letter of the alphabet at least once). Write the logic to check if a given sentence is a pangram. 
+
+1. Get the input word. 
+2. compare it with another string having all the 26 characters 
+3. note the occurrenace of each char
+4. if all 26 char is present, flag the word as panagram 
