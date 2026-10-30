@@ -1,0 +1,79 @@
+1. Scenario: You are developing a banking app that categorizes transaction based on the amount entered. 
+Write logic to determine whether the amount is positive, negative or zero
+1. get the input
+2. Compare it with 0
+3. If it is greater than 0, flag it as positive
+4. If it is lesser than 0, flag it as negative
+5. If it is 0 then flag it as zero. 
+
+2.Scenario: A digital locker requires users to enter a numerical passcode. As part of a security feature, 
+the system checks the sum of the digits of the passcode. 
+write logic to compute the sum of the digits of a given number. 
+
+1. Get the input and validate if it is integer, if not raise an error
+2. Extract each digit of the input and store it into another variable(list)
+3. Iterate the digits and calculate the sum. 
+
+3. Scenario: A Mobile payment app uses a simple checksum validation where reversing a transaction ID helps
+ detect fraud. Write a logic to take a number and return its reverse. 
+
+1. Get an integer input .
+2. Extract the digits and reverse the same 
+3. store the reversed number into another variable
+4. Compare the variable and its reverse and if the reversed number is not as per the checksum variable flag it as fraud. 
+
+4. scenario: In a secure login system< certain features are enabled only for users with prime number user id>
+Write logic to check if a given number is prime. 
+
+1. Get the user id.
+2. see if the id is 2 or 3 then confirm its prime number 
+3. if the number is greater than 3 then iterate the number till its square root.
+4. and divide the number by every number till its square root 
+5. If modulous is 0 then its not a prime. else its a prime
+
+5. Scenario: A scientist is working on permutations and needs to calculate the factorial of numbers frequently. 
+Write logic to find the factorial of a given number using recurssion. 
+1. Take the number
+2. Iterate for n times and every time multiply and keep it in the variable
+3. Display the variable. 
+
+6. Scenario: Write a logic to see if the given number is armstrong number
+1. Get the number
+2. Extract the digits and count the digits and keep it in another variable expo
+3. loop each digit 
+   for each digit calculate its cube and place it in another list variable 
+4. Sum the cube list 
+5 compare it with the original number 
+6. if it same tell the original number is armstrong number else no
+
+
+7. scenario: A password manager needs to strengthen weak password by swapping the first and last characters of
+user-generated password. 
+Write logic to perform this operation on a given string. 
+1. get the input. 
+2. find its length
+3. take the last char using the len-1 index and place it in temp variable
+4. assign the 1st char to the last char
+5. finally take the temp variable and assign it to the 1st char. 
+
+8. Scenario: A low-level networking application requires decimal numbers to be converted into binary format before
+transmission. Write logic to convert a given decimal number into its binary equivalent
+1. Get the input
+2. Use the built in function in python bin() to get the binary equivalent. 
+
+9.Scenario: A text-processing tool helps summarize articles by identifying the most significant words. 
+Write logic to find the longest word in the sentence. 
+
+1.Get the input
+2. Validate the length of each word
+3. If it is higher than the already highest word then replace the new long word and
+4. display the longest word. 
+
+10. Scenario: A plagiarism detection tool compares words from different documents and checks if they are anagrams
+(Same characters but different order)
+Write logic to check whether two given strings are anagrams. 
+1. take both strings, check its length 
+2. if they are more then its not anagram 
+3. If both have same length then compare the sorted list of both the strings if true then print anagram else no
+
+
